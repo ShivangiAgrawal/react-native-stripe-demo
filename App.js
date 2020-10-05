@@ -35,7 +35,7 @@ export default class CardFormScreen extends PureComponent {
     axios({
       method: 'POST',
       url:
-        'https://us-central1-YOUR_FIREBASE_ID.cloudfunctions.net/completePaymentWithStripe',
+        'https://us-central1-<YOUR_FIREBASE_ID>.cloudfunctions.net/completePaymentWithStripe',
       body: {
         amount: 100,
         currency: 'usd',
